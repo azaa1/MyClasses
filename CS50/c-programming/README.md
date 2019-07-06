@@ -6,9 +6,10 @@
 ## Structure of **C** Program
 ![](images/c-structure.png)
 ---
-##### 1. Header Files Inclusion: The first and foremost component is the inclusion of the Header files in a C program. A header file is a file with extension .h which contains C function declarations and macro definitions to be shared between several source files.
+#### 1. Header Files Inclusion: The first and foremost component is the inclusion of the Header files in a C program. A header file is a file with extension .h which contains C function declarations and macro definitions to be shared between several source files.
 
 **Syntax to include a header file in C:**
+
 \#include <(header_file_name).h>
 
 ***Example:***
