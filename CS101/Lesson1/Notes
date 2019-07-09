@@ -1,0 +1,33 @@
+* Grammar
+
+Sentence        ->  (Subject) + (Verb) + (Object)
+
+Backus-Naur Form
+<non-terminal>  -> replacement
+
+Subject         -> Noun
+Object          -> Noun
+Verb            -> Eat
+Verb            -> Like
+Noun            -> I
+Noun            -> Python
+Noun            -> Cookies
+
+
+* Python Grammar for Arithmetic Expressions
+
+Expression      -> Expression Operator Expression
+
+Expression      -> Number
+Operator        -> +
+Operator        -> *
+Number          -> 0, 1, ...
+Expression      -> (Expression)
+
+
+* Variables
+
+Assignment Statement:
+Name = Expression
+
+In most programming languages '=' does NOT mean equal, it means assignment.
